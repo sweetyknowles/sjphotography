@@ -1,10 +1,10 @@
 import React, { Component } from "react";
  
-class Photo extends Component {
+class About extends Component {
   render() {
     return (
       <div>
-        <h2>Photos</h2>
+        <h2>Abouts</h2>
         <p>Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>
         <ol>
@@ -19,4 +19,4 @@ class Photo extends Component {
   }
 }
  
-export default Photo;
+export default About;

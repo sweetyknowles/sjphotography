@@ -5,7 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from './components/Home';
-import Photo from './components/Photo';
+import About from './components/About';
 import Contact from './components/Contact';
 
 class App extends Component {
@@ -16,12 +16,12 @@ class App extends Component {
           <h1>Simple SPA</h1>
           <ul className="header">
           <li><NavLink exact to="/">Home</NavLink></li>
-            <li><NavLink to="/photo">Photo</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="content">
           <Route path="/" component={Home}/>
-            <Route path="/photo" component={Photo}/>
+            <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
              
           </div>
