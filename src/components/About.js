@@ -19,6 +19,13 @@ class About extends Component {
           <li>Many favourite cuisines</li>
           <li>I love technology</li>
         </ol>
+
+ <h1>Want to be my photography model or need some cool tips..</h1>
+        <p>
+        Email Me: sweetyjames@hotmail.co.uk
+
+        </p>
+
       </div>
     );
   }

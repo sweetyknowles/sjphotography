@@ -15,9 +15,9 @@ class App extends Component {
         <div>
           <h1>Photography is a Passion! </h1>
           <ul className="header">
-          <li><NavLink exact to="/">Home</NavLink></li>
+          {/* <li><NavLink exact to="/">Home</NavLink></li> */}
             <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            {/* <li><NavLink to="/contact">Contact</NavLink></li> */}
             <li><NavLink to="/photo">Photos</NavLink></li>
             
           </ul>
