@@ -10,9 +10,9 @@ class Home extends Component {
 
             <p>These are all technical things, that require some amount of study and tons of practice. I have heard a few times, "if it appears beautiful image, then it probably is!" </p>
 
-            <p>This is true, but only to a certain extend.</p>
+            <p>This is true, but only to a certain extend.Every skill, when learnt properly helps towards perfection. Photography my friends is a very specific skill but it is more a passion. I love it because I love capturing moments.. </p>
 
-            <p>We usually need help with the images by editing them. </p>
+            
         </p>
  
      
