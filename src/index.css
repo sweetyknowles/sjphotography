@@ -1,11 +1,15 @@
 body {
-  background-color: whiteblack;
+  background-color: black;
   padding: 20px;
   margin: 0;
 }
-h1, h2, p, ul, li {
+ h2, p, ul, li {
   font-family: sans-serif;
-  color:rgb(185, 235, 8);
+  color:yellow;
+}
+h1{
+  font-family: sans-serif;
+  color: Green;
 }
 ul.header li {
   display: inline;

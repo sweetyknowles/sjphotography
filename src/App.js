@@ -23,7 +23,7 @@ class App extends Component {
           </ul>
           <div className="content">
           <Route path="/" component={Home}/>
-            <Route path="/about" component={About}/>
+           <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/photo" component={Photo}/>
             
