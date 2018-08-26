@@ -12,11 +12,11 @@ class About extends Component {
             However, given the above stress of working, my favourtie time pass is my other passion PHOTOGRAPHY.
              Collecting memories, beautiful nature and giving people a palce to be beautiful is what I enjoy.</p>
         <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
+          <li>Fun Loving!</li>
+          <li>Love to travel</li>
+          <li>Big on music,almost all genres</li>
+          <li>many favourite cuisines</li>
+          <li>I love technology</li>
         </ol>
       </div>
     );
