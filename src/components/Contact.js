@@ -4,10 +4,12 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <h1>Want to be my photography model?</h1>
+        <p>
+        Email:sweetyjames@hotmail.co.uk
+
         </p>
+        
       </div>
     );
   }

@@ -4,15 +4,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>HELLO</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
+        <h2>Photography is the best meditating passion!</h2>
+        <p> If you love photography, then browsing through the gallery will not be as boring. I am by profession a Full Stack Develop. 
+            I therefore, do develop applications and yes it can be nerve wrecking! 
+
+            However, given the above stress of working, my favourtie time pass is my other passion PHOTOGRAPHY.
+             Collecting memories, beautiful nature and giving people a palce to be beautiful is what I enjoy.
+        </p>
  
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+     
       </div>
     );
   }
