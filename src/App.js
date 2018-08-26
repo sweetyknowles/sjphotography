@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Photography is a PasSion</h1>
+          <h1>Photography is a Passion! </h1>
           <ul className="header">
           <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
