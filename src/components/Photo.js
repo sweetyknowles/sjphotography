@@ -1,33 +1,19 @@
 import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery'
+import { Carousel } from 'react-responsive-carousel';
+import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
-
-class Photo extends Component {
+class DemoCarousel extends Component {
     render() {
-
-        const photos = [{
-            
-
-            original: 'https://i.kinja-img.com/gawker-media/image/upload/s--YFybMImn--/c_scale,f_auto,fl_progressive,q_80,w_800/w8xvxzrj8kn1iuzrjnqt.jpg',
-            //thumbnail: 'http://lorempixel.com/250/150/nature/1/',
-          },
-          //{
-        //     original: 'http://lorempixel.com/1000/600/nature/2/',
-        //     //thumbnail: 'http://lorempixel.com/250/150/nature/2/'
-        //   },
-        //   {
-        //     original: 'http://lorempixel.com/1000/600/nature/3/',
-        //     //thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-        //   }
-    ]
-
-
         return (
-            <ImageGallery items={photos} />
-            
+            <Carousel showArrows={true} autoPlay>
+                <div>
+                    <img src= "../images/yell.jpeg" />
+                    <p className="legend">Legend 1</p>
+                </div>
+            </Carousel>
         );
     }
-}
+};
 
-export default Photo;
+export default DemoCarousel;
